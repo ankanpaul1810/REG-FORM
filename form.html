@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>Master Page Example</title>
+        <link rel=stylesheet href="form.css">
+
+    </head>
+    <body>
+        <form name="f1">
+            <u><h1>Registration Form</h1></u>
+            <table>
+                <tr>
+                    <td>ld</td><td><input type="Text" name="t1" placeholder="Enter Id"></td>
+                </tr>
+                <tr>
+                    <td>Password</td><td><input type="password" name="t2" placeholder="Enter Password"></td>
+                </tr>
+                <tr>
+                    <td>Date of Birth</td><td><input type="date" name="d1"></td>
+                </tr>
+                <tr>
+                    <td>City</td><td>              <select name="s1">
+                                                   <option>Select</option>
+                                                   <option>Kolkata</option>
+                                                   <option>Mumbai</option>
+                                                   <option>Delhi</option>
+                                                   <option>Chennai</option>
+                                                   <option>Patna</option>
+                                                   <option>Bengaluru</option>
+                                                   <option>Kashmir</option>
+                                                   <option>Chattishgarh</option>
+                                                   </select></td>
+                </tr>
+                <tr>
+                    <td>Sex</td>
+                    <td>
+                        <input type="radio" name="r" value="male">Male
+                        <input type="radio" name="r" value="female">Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>Skill</td>
+                    <td>
+                        <input type="checkbox" name="c1" value="c">c
+                        <input type="checkbox" name="c3" value="java">java
+                        <input type="checkbox" name="c4" value="css">c#
+                    </td>
+                </tr>
+                <tr>
+                    <td>Adrress</td>
+                    <td>
+                        <textarea  name="a1" rows="5" cols="25" placeholder="enter address">
+                        </textarea>
+                    </td>
+                </tr>
+                <tr>
+                <td>Upload image</td>
+                <td><input type="file" name="fu1"></td>
+                </tr>
+                <tr align="center">
+                    <td colspan="2">
+                        <input type="button" name="b1" value="Submit">
+                        <input type="reset" name="b2" value="Reset">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

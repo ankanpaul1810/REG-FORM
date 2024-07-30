@@ -1,0 +1,63 @@
+/* Apply some basic styling to the form container */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid z#ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Style the form headings */
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* Style the table within the form */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Style table cells */
+td {
+    padding: 8px;
+}
+
+/* Style text inputs */
+input[type="text"],
+input[type="password"],
+input[type="date"],
+select,
+textarea,
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Style radio buttons and checkboxes */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Style the submit and reset buttons */
+input[type="button"],
+input[type="reset"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Style the buttons on hover */
+input[type="button"]:hover,
+input[type="reset"]:hover {
+    background-color: #4caf50;
+}
